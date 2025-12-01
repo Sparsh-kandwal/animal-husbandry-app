@@ -102,6 +102,20 @@ const Navbar = () => {
             >
               Dashboard
             </Link>
+            <Link
+              to="/gis" 
+              className="block px-3 py-3 text-base font-medium text-slate-300 hover:text-white hover:bg-slate-800 rounded-md transition-colors"
+              onClick={() => setIsOpen(false)}
+            >
+              GIS
+            </Link>
+            <Link
+              to="/reporting" 
+              className="block px-3 py-3 text-base font-medium text-slate-300 hover:text-white hover:bg-slate-800 rounded-md transition-colors"
+              onClick={() => setIsOpen(false)}
+            >
+              Reporting Portal
+            </Link>
             
             <div className="pt-4">
               <button className="w-full bg-emerald-600 text-white px-5 py-3 rounded-lg font-medium hover:bg-emerald-500 transition-colors">

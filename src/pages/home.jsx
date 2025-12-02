@@ -210,7 +210,7 @@ const WhyChooseSection = () => {
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           <div>
             <img 
-              src="https://images.unsplash.com/photo-1595841696677-6489ff3f8cd1?q=80&w=1974&auto=format&fit=crop" 
+              src="https://images.pexels.com/photos/9306507/pexels-photo-9306507.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
               alt="Farmer using tablet" 
               className="rounded-2xl shadow-2xl"
             />
